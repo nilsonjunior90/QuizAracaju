@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:hapticFeedbackEnabled="false"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
-    tools:context="aracaju.quiz.quizaracaju.MainActivity"
+    tools:context="com.github.nilsonjunior90.quizaracaju.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <Button

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="aracaju.quiz.quizaracaju">
+    package="com.github.nilsonjunior90.quizaracaju">
 
     <application
         android:allowBackup="true"
@@ -31,8 +31,18 @@
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="aracaju.quiz.quizaracaju.MainActivity" />
+                android:value="com.github.nilsonjunior90.quizaracaju.MainActivity" />
         </activity>
+        <activity
+            android:name=".LeaderBoardActivity"
+            android:label="@string/title_activity_leader_board"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.github.nilsonjunior90.quizaracaju.MainActivity" />
+        </activity>
+        <activity android:name=".QuizActivity"></activity>
     </application>
 
 </manifest>

@@ -1,4 +1,4 @@
-package aracaju.quiz.quizaracaju;
+package com.github.nilsonjunior90.quizaracaju;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+
 
 public class MainActivity extends AppCompatActivity {
 
@@ -35,6 +36,24 @@ public class MainActivity extends AppCompatActivity {
         }
         });
 
+
+        Button leaderBoardButton = (Button) findViewById(R.id.leader_board_button);
+        leaderBoardButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startLeaderBoardActivity();
+            }
+        });
+
+
+        Button newQuizButton = (Button) findViewById(R.id.new_quiz_button);
+        newQuizButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startQuizActivity();
+            }
+        });
+
     }
 
     private void startAboutActivity() {
@@ -43,5 +62,20 @@ public class MainActivity extends AppCompatActivity {
 
         startActivity(intent);
     }
+
+    private void startLeaderBoardActivity() {
+
+        Intent intent = new Intent(this, LeaderBoardActivity.class);
+
+        startActivity(intent);
+    }
+
+    private void startQuizActivity() {
+
+        Intent intent = new Intent(this, QuizActivity.class);
+
+        startActivity(intent);
+    }
+
 
 }

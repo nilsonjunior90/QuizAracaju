@@ -1,4 +1,4 @@
-package aracaju.quiz.quizaracaju;
+package com.github.nilsonjunior90.quizaracaju;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -7,8 +7,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.Toast;
 
 import java.net.URI;
+
 
 public class AboutActivity extends AppCompatActivity {
 
@@ -31,7 +33,14 @@ public class AboutActivity extends AppCompatActivity {
     }
 
     protected void rateThisApp(){
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=PackageName")));
+        Toast toast = Toast.makeText(getApplicationContext(),
+                "Rate this App",
+                Toast.LENGTH_SHORT);
+
+        toast.show();
+
+        //fixme
+        //startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("market://details?id=PackageName")));
     }
 
 }
