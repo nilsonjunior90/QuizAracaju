@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:hapticFeedbackEnabled="false"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="aracaju.quiz.quizaracaju.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <Button
+        android:id="@+id/new_quiz_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/new_quiz"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:drawablePadding="4dp"
+        android:text="@string/new_quiz"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="@string/new_quiz" />
+
+    <Button
+        android:id="@+id/leader_board_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/leader_board"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:drawablePadding="4dp"
+        android:text="@string/leader_board"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/new_quiz_button"
+        tools:text="@string/leader_board" />
+
+    <Button
+        android:id="@+id/about_button"
+        style="@android:style/Widget.DeviceDefault.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:contentDescription="@string/about"
+        android:drawableLeft="@android:drawable/btn_star_big_on"
+        android:drawablePadding="4dp"
+        android:text="@string/about"
+        android:textAlignment="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/leader_board_button"
+        tools:text="@string/about" />
+</android.support.constraint.ConstraintLayout>
