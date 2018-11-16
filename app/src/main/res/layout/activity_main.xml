@@ -26,13 +26,14 @@
         layout="@layout/content_main" />
 
     <android.support.design.widget.FloatingActionButton
-        android:id="@+id/fab"
+        android:id="@+id/fab_login"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_vertical|end"
         android:layout_margin="@dimen/fab_margin"
+        app:backgroundTint="@android:color/holo_red_dark"
         app:layout_anchor="@+id/include"
         app:layout_anchorGravity="right|top"
-        app:srcCompat="@android:drawable/ic_menu_add" />
+        app:srcCompat="@drawable/icons8_person_48" />
 
 </android.support.design.widget.CoordinatorLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "592218117674",
+    "firebase_url": "https://quizaracaju.firebaseio.com",
+    "project_id": "quizaracaju",
+    "storage_bucket": "quizaracaju.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:592218117674:android:5a84c5a89fecf48f",
+        "android_client_info": {
+          "package_name": "com.github.nilsonjunior90.quizaracaju"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "592218117674-i4e73etp9jmvh0o22sjvbnkbm0ijo77s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.github.nilsonjunior90.quizaracaju",
+            "certificate_hash": "787cc8603132005472cadd0c70631add5340966e"
+          }
+        },
+        {
+          "client_id": "592218117674-apdirvi0j9aislo2mkovblhuaq6subvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCIHhrB_iAaTacJLTuruvm2UAc356fTRuw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "592218117674-apdirvi0j9aislo2mkovblhuaq6subvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
