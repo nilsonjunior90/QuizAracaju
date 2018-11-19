@@ -47,4 +47,16 @@ public class User {
             this.highscore = newHighscore;
         }
     }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "eMail='" + eMail + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
+
+    public String getKey(){
+        return eMail;
+    }
 }

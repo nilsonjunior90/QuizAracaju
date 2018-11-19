@@ -13,4 +13,7 @@
     <string name="leader_board">Recordes</string>
     <string name="high_score">Meu Record</string>
     <string name="share">Compartilhar</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">senha</string>
+    <string name="name">Nome</string>
 </resources>
